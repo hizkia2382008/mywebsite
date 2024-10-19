@@ -41,9 +41,9 @@ nav ul li a:hover {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     padding: 20px;
     min-height: 80vh;
 }
